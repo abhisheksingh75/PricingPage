@@ -1,0 +1,54 @@
+@import "_config";
+
+.font {
+  //size
+  &-x-large {
+    font-size: 3rem;
+  }
+  &-medium {
+    font-size: 2rem;
+  }
+  &-small {
+    font-size: 1rem;
+  }
+  &-x-small {
+    font-size: 0.5rem;
+  }
+  //styles
+  &-bold {
+    font-weight: bold;
+  }
+
+  //font color
+  &-primary-color {
+    color: $primary-color;
+  }
+  &-light-color {
+    color: $light-color;
+  }
+  &-dark-color {
+    color: $dark-color;
+  }
+  &-grey-color {
+    color: $grey-color;
+  }
+  &-blue-color {
+    color: $blue-color;
+  }
+  &-green-color {
+    color: $green-color;
+  }
+}
+
+//background color
+.bg {
+  &-light {
+    background: $light-color;
+  }
+  &-dark {
+    background-color: $dark-color;
+  }
+  &-grey {
+    background-color: $background-grey-color;
+  }
+}

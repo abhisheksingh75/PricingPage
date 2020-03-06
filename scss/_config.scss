@@ -1,0 +1,51 @@
+$primary-color: rgb(60, 94, 94);
+$grey-color: rgb(182, 179, 179);
+$dark-color: rgba(35, 55, 55, 1);
+$light-color: rgb(255, 255, 255);
+$blue-color: rgb(37, 213, 236);
+$green-color: rgb(87, 248, 122);
+
+$background-grey-color: rgba(230, 227, 227, 0.822);
+$SPACEAROUNDS: (1, 2, 3, 4, 5);
+
+@each $SPACE in $SPACEAROUNDS {
+  //margin all around
+  .m-a-#{$SPACE} {
+    margin: #{$SPACE}rem;
+  }
+
+  //margin vertical
+  .m-v-#{$SPACE} {
+    margin: #{$SPACE}rem 0;
+  }
+
+  //margin horizontal
+  .m-h-#{$SPACE} {
+    margin: 0 #{$SPACE}rem;
+  }
+
+  //margin bottom
+  .m-b-#{$SPACE} {
+    margin-bottom: #{$SPACE}rem;
+  }
+
+  //padding all around
+  .p-a-#{$SPACE} {
+    padding: #{$SPACE}rem;
+  }
+
+  //padding vertical
+  .p-v-#{$SPACE} {
+    padding: #{$SPACE}rem 0;
+  }
+
+  //padding horizontal
+  .m-h-#{$SPACE} {
+    padding: 0 #{$SPACE}rem;
+  }
+
+  //border bottom
+  .b-b-#{$SPACE} {
+    border-bottom: #{$SPACE}rem solid #{$grey-color};
+  }
+}
